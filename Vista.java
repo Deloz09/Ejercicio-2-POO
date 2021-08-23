@@ -17,14 +17,14 @@ public class Vista {
      * @return int op, seleccionada por el usuario (1-7)
      */
     public int mostrarMenu(){
-        System.out.println("\n\n\n--------------------MenU--------------------");
-        System.out.println("OpciOn 1: Crear nueva familia");
-        System.out.println("OpciOn 2: Mostrar familias en el sistema");
-        System.out.println("OpciOn 3: Recibir perro");
-        System.out.println("OpciOn 4: Mostrar perros en el sistema");
-        System.out.println("OPciOn 5: Mostrar razas 'peligrosas'");
-        System.out.println("OpciOn 6: Asignar perro");
-        System.out.println("OpciOn 7: Salir\n");
+        System.out.println("\n\n\n--------------------Menu--------------------");
+        System.out.println("Opcion 1: Crear nueva familia");
+        System.out.println("Opcion 2: Mostrar familias en el sistema");
+        System.out.println("Opcion 3: Recibir perro");
+        System.out.println("Opcion 4: Mostrar perros en el sistema");
+        System.out.println("OPcion 5: Mostrar razas 'peligrosas'");
+        System.out.println("Opcion 6: Asignar perro");
+        System.out.println("Opcion 7: Salir\n");
         int op = Integer.parseInt(scan.nextLine());
         return op;
     }
@@ -33,7 +33,7 @@ public class Vista {
      * Método que imprime la bienvenida.
      */
     public void bienvenida(){
-        System.out.println("\n\nBienvenido al Sistema de Hogares Temporales para Canes");
+        System.out.println("\n\nBienvenido al Sistema de Hogares Temporales para Canes [HTC]");
     }
 
     /** 
