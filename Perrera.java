@@ -187,6 +187,7 @@
      * (Se eligió hacerlo acá y no en vista para evitar problema de compatibilidad y el ciclo)  
      */
     public void mostrarFamilias(){
+        System.out.println("\n\n- FAMILIAS REGISTRADAS:");
         for(int i=0; i<nf; i++){
             System.out.println("\n+++++ Familia No."+(i+1)+" +++++");
             System.out.println("- Apellido: "+familias[i].getApellido());
@@ -203,6 +204,7 @@
      * (Se eligió hacerlo acá y no en vista para evitar problema de compatibilidad y el ciclo)  
      */
     public void mostrarPerros(){
+        System.out.println("\n\n- PERROS REGISTRADOS:");
         for(int i=0; i<np; i++){
             System.out.println("\n+++++ Perro No."+(i+1)+" +++++");
             System.out.println("- Nombre: "+perros[i].getNombre());

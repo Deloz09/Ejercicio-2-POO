@@ -17,14 +17,14 @@ public class Vista {
      * @return int op, seleccionada por el usuario (1-7)
      */
     public int mostrarMenu(){
-        System.out.println("\n\n\n--------------------Menú--------------------");
-        System.out.println("Opción 1: Crear nueva familia");
-        System.out.println("Opción 2: Mostrar familias en el sistema");
-        System.out.println("Opción 3: Recibir perro");
-        System.out.println("Opción 4: Mostrar perros en el sistema");
-        System.out.println("OPción 5: Mostrar razas 'peligrosas'");
-        System.out.println("Opción 6: Asignar perro");
-        System.out.println("Opción 7: Salir\n");
+        System.out.println("\n\n\n--------------------MenU--------------------");
+        System.out.println("OpciOn 1: Crear nueva familia");
+        System.out.println("OpciOn 2: Mostrar familias en el sistema");
+        System.out.println("OpciOn 3: Recibir perro");
+        System.out.println("OpciOn 4: Mostrar perros en el sistema");
+        System.out.println("OPciOn 5: Mostrar razas 'peligrosas'");
+        System.out.println("OpciOn 6: Asignar perro");
+        System.out.println("OpciOn 7: Salir\n");
         int op = Integer.parseInt(scan.nextLine());
         return op;
     }
@@ -40,7 +40,7 @@ public class Vista {
      * Método que imprime la despedida.
      */
     public void despedida(){
-        System.out.println("\n\nHa salido del sistema, que tenga un feliz día.\n");
+        System.out.println("\n\nHa salido del programa, que tenga un feliz día. :)\n");
     }
 
     /** 
@@ -58,7 +58,7 @@ public class Vista {
      * @return String apellido
      */
     public String pedirApellido(){
-        System.out.println("\nIngrese el apellido de la familia");
+        System.out.println("\nIngrese el apellido de la familia:");
         String apellido = scan.nextLine();
         return apellido;
     }
@@ -165,7 +165,7 @@ public class Vista {
      * Método que indica que el ingreso de opcion no es válido.
      */
     public void ingresoIncorrecto(){
-        System.out.println("\nOpcion invalida, intentelo otra vez.");
+        System.out.println("\n%% Opcion invalida, intentelo otra vez. %%");
     }
 
     /** 
@@ -200,7 +200,7 @@ public class Vista {
      * Método que indica que la familia excedió el límite de miembros (12).
      */
     public void limiteFamilia(){
-        System.out.println("\nEl numero de miembros de la familia excede el limite.");
+        System.out.println("\n%% El numero de miembros de la familia excede el limite. %%");
     }
 
     /** 
@@ -208,14 +208,14 @@ public class Vista {
      */
     public void avisoAsignacion(){
         System.out.println("\n*Aviso*\nTenga en cuenta que para la asiganacion el id es el numero que la familia y perro tiene asignado en este sistema.");
-        System.out.println("Si desconoce estos valores, le recomendamos visualizar las familias y perros registrados (opciones 3 y 4)");
+        System.out.println("Si desconoce estos valores, le recomendamos visualizar las familias y perros registrados (opciones 3 y 4).");
     }
 
     /** 
      * Método que indica que sucedió un error en la asiganción.
      */
     public void errorAsignacion(){
-        System.out.println("\nHa ocurrido un error en la asiganacion, verifique que los id son correctos y/o existen en el sistema.");
+        System.out.println("\n%% Ha ocurrido un error en la asiganacion, verifique que los id son correctos y/o existen en el sistema. %%");
     }
 
     /** 
@@ -238,7 +238,7 @@ public class Vista {
      * @param mascotas
      */
     public void mostrarFam(String apellido, int miembrosFam, int ninos, int adolescentes, int adultos, int mascotas){
-        System.out.println("\nLa familia ha sido resgistrada exitosamente.");
+        System.out.println("\n¡La familia ha sido resgistrada exitosamente!");
         System.out.println("\n--------------------------------------------");
         System.out.println("El apellido de la familia es: "+apellido);
         System.out.println("La cantidad de miembros en la familia es: "+miembrosFam);
@@ -258,7 +258,7 @@ public class Vista {
      * @param saludP
      */
     public void mostrarPerro(String nombreP, String razaP, int tamanoP, int edadP, int saludP){
-        System.out.println("\nEl perro ha sido resgistrado exitosamente.");
+        System.out.println("\n¡El perro ha sido resgistrado exitosamente!");
         System.out.println("\n--------------------------------------------");
         System.out.println("El nombre del perro es: "+nombreP);
         System.out.println("La raza del perro es: "+razaP);

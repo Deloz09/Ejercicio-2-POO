@@ -209,4 +209,14 @@
 		v.despedida();
 	}
 }
-        
+ 
+/*
+CAMBIOS GENERALES:
+- Se agregaron las opciones de mostrar Familias, mostrar Perros y mostrar razas peligrosas para facilitar la interaccion 
+  y para que el usuario sepa que datos contiene el programa.
+- La clasificacion de los miembros por edades es inmediata y se hace con el fin de simplificar los procesos de 
+  verificacion de edades.
+- Se agregó la funcion de la generacion de las 3 familias de ejemplo, con datos randomizados y un apellido que se escoge
+  de manera aleatorioentre una lista de apellidos pre establecidos.
+- Perrera posee más métodos enfocados a mejorar el manejo de la familia seleccionada entre todas las que están registradas.
+*/
